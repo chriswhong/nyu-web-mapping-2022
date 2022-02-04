@@ -19,35 +19,38 @@
     <h3>My Favorite Albums</h3>
     <p>Here are some albums I enjoy.  Click an album to see the album cover.</P>
   </div>
-  <div class='half-width'>
-    <div id='sublime' class='artist-container' data-album-art='https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg'>
-      <div class='artist-name'>
-        Sublime
+  <div class='row'>
+    <div class='column left-half'>
+      <div id='sublime' class='artist-container' data-album-art='https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg'>
+        <div class='artist-name'>
+          Sublime
+        </div>
+        <div class='album-title'>
+          Self-titled
+        </div>
       </div>
-      <div class='album-title'>
-        Self-titled
+      <div id='weezer' class='artist-container' data-album-art='https://m.media-amazon.com/images/I/71nYpz++VCL._SL1400_.jpg'>
+        <div class='artist-name'>
+          Weezer
+        </div>
+        <div class='album-title'>
+          Blue Album
+        </div>
+      </div>
+      <div id='jayz' class='artist-container' data-album-art='https://upload.wikimedia.org/wikipedia/en/b/bb/Jay-Z_-_The_Blueprint_3.jpg'>
+        <div class='artist-name'>
+          Jay-Z
+        </div>
+        <div class='album-title'>
+          Blueprint III
+        </div>
       </div>
     </div>
-    <div id='weezer' class='artist-container' data-album-art='https://m.media-amazon.com/images/I/71nYpz++VCL._SL1400_.jpg'>
-      <div class='artist-name'>
-        Weezer
-      </div>
-      <div class='album-title'>
-        Blue Album
-      </div>
-    </div>
-    <div id='jayz' class='artist-container' data-album-art='https://upload.wikimedia.org/wikipedia/en/b/bb/Jay-Z_-_The_Blueprint_3.jpg'>
-      <div class='artist-name'>
-        Jay-Z
-      </div>
-      <div class='album-title'>
-        Blueprint III
-      </div>
+    <div class='column right-half'>
     </div>
   </div>
-  <!-- ^^ closes .half-width -->
-  <div class='half-width right-half'>
-  </div>
+
+  <button class='toggle'>Toggle Boolean</button>
   <!-- load the jQuery library from a CDN -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- load my local javascript file -->

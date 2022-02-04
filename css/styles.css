@@ -21,9 +21,12 @@ html {
   font-size: 10px;
 }
 
-.half-width {
-  width: 49%;
-  display: inline-block;
+.column {
+  flex: 50%;
+}
+
+.row {
+  display: flex;
 }
 
 .right-half {
