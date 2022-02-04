@@ -1,11 +1,14 @@
 
+html {
+  font-family: sans-serif;
+}
 
+/* this is the artist button */
 .artist-container {
   border: 1px solid;
   border-radius: 5px;
   padding: 5px 9px;
   background: #e9ebf7;
-  font-family: sans-serif;
   margin-bottom: 8px;
   cursor: pointer;
 }
@@ -23,6 +26,15 @@
   display: inline-block;
 }
 
+.right-half {
+  text-align: center;
+}
+
 .right-half img {
-  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.header {
+  text-align: center;
 }

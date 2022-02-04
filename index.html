@@ -5,27 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
-
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
+  <title>My Favorite Albums</title>
 
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/styles.css">
-
 </head>
 
 <body>
+  <div class='header'>
+    <h3>My Favorite Albums</h3>
+    <p>Here are some albums I enjoy.  Click an album to see the album cover.</P>
+  </div>
   <div class='half-width'>
-    <div id='sublime' class='artist-container'>
+    <div id='sublime' class='artist-container' data-album-art='https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg'>
       <div class='artist-name'>
         Sublime
       </div>
@@ -33,7 +28,7 @@
         Self-titled
       </div>
     </div>
-    <div id='weezer' class='artist-container'>
+    <div id='weezer' class='artist-container' data-album-art='https://m.media-amazon.com/images/I/71nYpz++VCL._SL1400_.jpg'>
       <div class='artist-name'>
         Weezer
       </div>
@@ -41,7 +36,7 @@
         Blue Album
       </div>
     </div>
-    <div id='jayz' class='artist-container'>
+    <div id='jayz' class='artist-container' data-album-art='https://upload.wikimedia.org/wikipedia/en/b/bb/Jay-Z_-_The_Blueprint_3.jpg'>
       <div class='artist-name'>
         Jay-Z
       </div>
@@ -52,7 +47,6 @@
   </div>
   <!-- ^^ closes .half-width -->
   <div class='half-width right-half'>
-    Click an album to see the album art
   </div>
   <!-- load the jQuery library from a CDN -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

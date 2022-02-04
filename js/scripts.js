@@ -1,13 +1,7 @@
-
-// these are listeners that respond to clicks on the artist buttons
-$('#sublime').on('click', function() {
-	$(".right-half").html("<img src='https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg'/>");
-})
-
-$('#weezer').on('click', function() {
-	$(".right-half").html("<img src='https://m.media-amazon.com/images/I/71nYpz++VCL._SL1400_.jpg'/>");
-})
-
-$('#jayz').on('click', function() {
-	$(".right-half").html("<img src='https://upload.wikimedia.org/wikipedia/en/b/bb/Jay-Z_-_The_Blueprint_3.jpg'/>");
+// consolidate the above 3 listeners into one listener
+$('.artist-container').on('click', function() {
+  // pull out the data-album-art attribute from the clicked element
+  var albumArt = $(this).data('album-art')
+  // overwrite the html in the right-half div with an image of the album art
+  $(".right-half").html(`<img src='${albumArt}' />`)
 })
