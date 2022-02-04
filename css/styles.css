@@ -1,0 +1,28 @@
+
+
+.artist-container {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 9px;
+  background: #e9ebf7;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.artist-container:hover {
+  background: #afb5bd
+}
+
+.artist-name {
+  font-size: 10px;
+}
+
+.half-width {
+  width: 49%;
+  display: inline-block;
+}
+
+.right-half img {
+  width: 100%;
+}
