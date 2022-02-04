@@ -1,5 +1,5 @@
 
-
+// these are listeners that respond to clicks on the artist buttons
 $('#sublime').on('click', function() {
 	$(".right-half").html("<img src='https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg'/>");
 })
